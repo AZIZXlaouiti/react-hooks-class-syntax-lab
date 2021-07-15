@@ -2,5 +2,5 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./components/App";
-
-ReactDOM.render(<App />, document.getElementById("root"));
+import user from "../src/data/user"
+ReactDOM.render(<App user={user}/>, document.getElementById("root"));
